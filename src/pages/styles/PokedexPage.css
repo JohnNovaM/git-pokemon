@@ -1,0 +1,94 @@
+.pokedexpage_header{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.header_red {
+    background: #DD1A1A;
+    padding: 2.5rem;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.pokedexpage_image {
+   height: 70px;
+   top: 30%;
+   position: absolute;
+   width: 60%;
+}
+.header_black {
+   background: #0C0C0C;
+   padding: 1em 1.5em;
+   bottom: 0;
+   width: 100%;
+   display: flex;
+   flex-direction: row-reverse;
+}
+.header_circle {
+    height: 70px;
+    top: 50%;
+    position: absolute;
+    width: 10%;
+}
+.pokedexpage_body {
+   padding: 50px 50px;
+}
+.pokedexpage_salute {
+    color: #FE1936;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.pokedexpage_salute-comp {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 450;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.pokedex_sectionform {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    
+}
+.pokedexpage_form {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0.1em 0.1em 0.3em #424141;
+}
+.pokedexpage_input {
+    border: none;
+    padding: 0.7em;
+    width: 25em;
+    font-size: 1.4rem;
+    background: #FFFFFF;
+    text-align: justify; 
+}
+.pokedexpage_btn {
+    border: none;
+    width: 10em;
+    background-color: #D93F3F;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+
+.pokedexpage_container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+

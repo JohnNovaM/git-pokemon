@@ -1,0 +1,78 @@
+
+.homepage{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.homepage_section {
+    width: 85%;
+    max-width: 850px;
+    margin: 50px auto;
+    align-items: center;     
+}
+.homepage_image {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.homepage_title {
+    color: #FE1936;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.homepage_indication {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    color: #302F2F;
+    margin-bottom: 30px;
+}
+.homepage_form {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0.1em 0.1em 0.3em #424141;
+}
+.homepage_btn {
+    border: none;
+    width: 10em;
+    background-color: #D93F3F;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.homepage_input {
+    border: none;
+    padding: 0.7em;
+    width: 25em;
+    font-size: 1.4rem;
+    background: #FFFFFF;
+    text-align: justify; 
+}
+.footer {
+    margin-top: auto;
+}
+.footer_red {
+    background: #DD1A1A;
+    padding: 2rem;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.footer_black {
+    background: #0C0C0C;
+    padding: 1.4rem;
+    bottom: 0;
+    width: 100%;
+}
+.footer_circle {
+    width: 5em;
+    position: absolute;
+}
